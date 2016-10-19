@@ -1,0 +1,57 @@
+html, body {
+	background-color: #ffccff; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90%;
+	margin: auto;
+}
+
+.container{
+	background-color: #ffccff; 
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	width: auto;
+}
+
+.me{
+    margin: auto;
+    max-width: 50%;
+	border-radius: 70%;
+}
+
+.left, .right{
+	/*border: 3px solid black; */
+	margin: 10px;
+	padding: 10px;
+	max-width: 30%;
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+}
+
+.url{
+	margin: 10px; 
+}
+
+.right {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.name{
+	margin-right: 15px;
+}
+
+.bio{
+	font-family: sans-serif;
+}
+.left {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
